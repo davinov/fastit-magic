@@ -21,3 +21,8 @@ The app is live at http://localhost:8000.
     git co routing
 - A new route defined in [routes.coffee](config/routes.coffee)
 - A new template: [deck.jade](views/deck.jade)
+
+### 3. Links
+    git co links
+- A new link to go back home in the menu
+- A new link to go to the deck
