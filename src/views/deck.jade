@@ -1,3 +1,4 @@
 h1 Deck
 
-pre {{ deck | json }}
+ul
+  li(ng-repeat="card in deck") {{ card.name }} ({{card.cost}})

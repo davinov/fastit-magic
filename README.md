@@ -34,3 +34,8 @@ The app is live at http://localhost:8000.
 - Passing data to the view using `$scope`
 - Displaying data in the view with `{{ }}`
 - Prettifying the output with a filter ()`{{ some_var | filter}}`)
+
+### 5. Using directives
+    git co ng-repeat
+- A directive is a specific Angular's HTML element or attribute
+- Using `ng-repeat` to display a list in the [view](views/deck.jade)
