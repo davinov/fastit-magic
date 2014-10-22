@@ -4,6 +4,7 @@ angular.module 'fast-it.magic'
 
   $routeProvider
     .when '/', templateUrl: 'views/home.html'
+    .when '/deck', templateUrl: 'views/deck.html'
     .otherwise redirectTo: '/'
 
   delete $httpProvider.defaults.headers.common['X-Requested-With']
