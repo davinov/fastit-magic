@@ -1,0 +1,7 @@
+/* Specific functions to insure IE8 compatibility */
+
+if(typeof String.prototype.trim !== 'function') {
+    String.prototype.trim = function() {
+        return this.replace(/^\s+|\s+$/g, '');
+    }
+}

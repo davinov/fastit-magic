@@ -1,0 +1,44 @@
+{
+  "name": "fastit-magic",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theodo/pepiniere-start",
+  "authors": [
+    "La Pepiniere <pepiniere@theodo.fr>"
+  ],
+  "description": "Magic app to demo angular's possibilities",
+  "main": "app/app.js",
+  "keywords": [
+    "start",
+    "pepiniere"
+  ],
+  "license": "proprietary",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.22",
+    "angular-route": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "angular-animate": "~1.2.22",
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap": "~3.2.0",
+    "components-font-awesome": "4.1.x",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.x"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less"
+      ],
+      "dependencies": {}
+    }
+  }
+}

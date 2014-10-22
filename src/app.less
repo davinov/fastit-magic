@@ -1,0 +1,21 @@
+@bower-components: '/bower_components';
+@bootstrap-path: '@{bower-components}/bootstrap/less';
+@styles: '/styles';
+
+/* Bootstrap.less */
+@import '@{bootstrap-path}/bootstrap';
+
+/* Font Awesome */
+@import '@{bower-components}/components-font-awesome/less/font-awesome.less';
+@font-face {
+  font-family: 'Font Awesome';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts-awesome/fontawesome-webfont.woff') format('woff');
+}
+.fa {
+  font-family: 'Font Awesome';
+}
+
+/* Some fix for have no href */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
