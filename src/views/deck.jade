@@ -1,4 +1,7 @@
 h1 Deck
 
-ul
-  li(ng-repeat="card in deck") {{ card.name }} ({{card.cost}})
+.deck
+  card(
+    data="card"
+    ng-repeat="card in deck"
+  )

@@ -39,3 +39,9 @@ The app is live at http://localhost:8000.
     git co ng-repeat
 - A directive is a specific Angular's HTML element or attribute
 - Using `ng-repeat` to display a list in the [view](views/deck.jade)
+
+### 6. Custom directive
+    git co card-directive
+- New `card` directive in [card.coffee](directives/card.coffee)
+- New associated view in [card.jade](views/card.jade)
+- Use of the directive in in the [deck view](views/deck.jade)
