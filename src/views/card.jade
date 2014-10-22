@@ -1,7 +1,8 @@
 .well.well-sm.col-sm-3
   h3 {{ data.name }}
     .small  {{ data.cost }}
-  input(
-    type="number"
-    ng-model="data.count"
-  )
+  div Count: {{ data.count || 0 }}
+    button.btn.btn-default.btn-sm(
+      ng-click='addCard(data)'
+    )
+      i.fa.fa-plus

@@ -4,3 +4,4 @@ angular.module 'fast-it.magic'
   scope:
     data: '='
   templateUrl: 'views/card.html'
+  controller: 'cardController'

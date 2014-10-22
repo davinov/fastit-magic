@@ -49,3 +49,8 @@ The app is live at http://localhost:8000.
 ### 7. Two-way-binding
     git co card-count
 - New `input` that dynamically changes the data in [card.jade](views/card.jade)
+
+### 8. Controller actions
+    git co add-card-button
+- New controller associated to card` directive in [card.coffee](directives/card.coffee)
+- `ng-click` triggering the action in [card.jade](views/card.jade)
