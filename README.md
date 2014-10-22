@@ -45,3 +45,7 @@ The app is live at http://localhost:8000.
 - New `card` directive in [card.coffee](directives/card.coffee)
 - New associated view in [card.jade](views/card.jade)
 - Use of the directive in in the [deck view](views/deck.jade)
+
+### 7. Two-way-binding
+    git co card-count
+- New `input` that dynamically changes the data in [card.jade](views/card.jade)
