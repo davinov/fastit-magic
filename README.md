@@ -33,3 +33,4 @@ The app is live at http://localhost:8000.
 - Declaring the controller for the route in [routes.coffee](config/routes.coffee)
 - Passing data to the view using `$scope`
 - Displaying data in the view with `{{ }}`
+- Prettifying the output with a filter ()`{{ some_var | filter}}`)
